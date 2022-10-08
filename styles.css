@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: url('./background/felt.jpg');
+    background-size: cover;
+    background-color: #063f22;
+}
+
+#dealer-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#your-cards {
+    height: 175px;
+}
+
+#your-cards img {
+    height: 175px;
+    width: 125px;
+    margin: 1px;
+}
+
+#hit {
+    border-radius: 12.5px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    right: 25px;
+}
+
+#hit:hover {
+    cursor: pointer;
+}
+
+#stay {
+    border-radius: 12.5px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    position: relative;
+    left: 25px;
+}
+
+#stay:hover {
+    cursor: pointer;
+}
+
+#place-bet {
+    border-radius: 12.5px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#place-bet:hover {
+    cursor: pointer;
+}
+
+#raise {
+    border-radius: 12.5px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+#raise:hover {
+    cursor: pointer;
+}
+
+#raise:active {
+    border: none;
+}
+
+#drop {
+    border-radius: 12.5px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+#drop:hover {
+    cursor: pointer;
+}
+
+.play-container {
+    margin-top: 20px;
+    position: relative;
+    right: 60px;
+    bottom: 125px;
+}
+
+#play {
+    border-radius: 12.5px;
+    width: 125px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+#play:hover {
+    cursor: pointer;
+}
+
+#new-game {
+    border-radius: 12.5px;
+    width: 125px;
+    height: 50px;
+    font-size: 20px;
+    position: absolute;
+}
+
+#new-game:hover {
+    cursor: pointer;
+}
+
+#results {
+    text-decoration: bold;
+    font-size: 24px;
+}

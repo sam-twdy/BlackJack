@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="blackjackAdv.js"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/8b769a7f73.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h2>Dealer: <span id="dealer-sum"></span></h2>
+    <div id="dealer-cards">
+        <img id="hidden" src="cards/BACK.png">
+    </div>
+
+    <h2>You: <span id="your-sum"></span><br>Your Bankroll: <span id="your-bankroll"></span></h2>
+    <div id="your-cards"></div>
+
+    <br>
+    <button id="hit">Hit</button>
+    <button id="place-bet">Bet</button>
+    <button id="stay">Stay</button>
+    <br>
+    <h2><button id="drop"><i class="fa-solid fa-circle-chevron-down"></i></button>Bet: <span id="bet"></span><button id="raise"><i class="fa-solid fa-circle-chevron-up"></i></button></h2>
+
+    <p id="results"></p>
+    <div class="play-container">
+        <button id="play">Next Round</button>
+        <button id="new-game">New Game</button>
+    </div>
+</body>
+
+</html>
